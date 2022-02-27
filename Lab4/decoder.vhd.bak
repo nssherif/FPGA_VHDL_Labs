@@ -1,0 +1,56 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+ 
+entity seven_seg is
+Port ( Inputs : in STD_LOGIC_VECTOR (3 downto 0);
+Outputs: out STD_LOGIC_VECTOR (6 downto 0));
+end seven_seg;
+ 
+architecture Structure of seven_seg is
+ 
+begin
+ 
+process(Inputs)
+
+begin
+ 
+case Inputs is
+when "0000" =>
+Outputs <= "0000001"; --0
+when "0001" =>
+Outputs <= "1001111"; --1
+when "0010" =>
+Outputs <= "0010010"; --2
+when "0011" =>
+Outputs <= "0000110"; --3
+when "0100" =>
+Outputs <= "1001100"; --4
+when "0101" =>
+Outputs <= "0100100"; --5
+when "0110" =>
+Outputs <= "0100000"; --6
+when "0111" =>
+Outputs <= "0001111"; --7
+when "1000" =>
+Outputs <= "0000000"; --8
+when "1001" =>
+Outputs <= "0001100"; --9
+when "1010" =>
+Outputs <= "0001000"; --A
+when "1011" =>
+Outputs <= "1100000"; --b
+when "1100" =>
+Outputs <= "0110001"; --C
+when "1101" =>
+Outputs <= "1000010"; --d
+when "1110" =>
+Outputs <= "0110000"; --E
+when "1111" =>
+Outputs <= "0111000"; --F
+when others =>
+Outputs <= "1111111";  --off
+
+end case;
+end process;
+
+end Structure;

@@ -1,0 +1,7 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+ 
+entity two_decoders is
+Port ( SW : in STD_LOGIC_VECTOR (3 downto 0);
+HEX0: out STD_LOGIC_VECTOR (6 downto 0));
+end two_decoders;
