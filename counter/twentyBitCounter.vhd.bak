@@ -1,0 +1,26 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+
+
+entity twentyBitCounter is
+	port (KEY(0), CLOCK2_50: in std_logic;
+			LEDR(0): out std_logic);
+end twentyBitCounter;
+
+architecture Structure of twentyBitCounter is
+	signal tempCount: std_logic_vector(19 downto 0) ;
+begin
+	process(CLOCK2_50,KEY(0))
+	begin
+		if (CLOCK2_50'event and CLOCK2_50='1') then
+			if (KEY(0) = '0') then
+				tempCount <= "00000000000000000000";
+			else
+				tempCount <= tempCount + '1';
+			end if;
+		end if;	
+	end process;
+	LEDR(0) <= tempCount(19);
+
+end Structure;

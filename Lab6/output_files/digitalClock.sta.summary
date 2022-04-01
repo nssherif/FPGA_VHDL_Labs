@@ -1,0 +1,181 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'twentySixBitCounter:twentySixBitCounter1|reached'
+Slack : -4.553
+TNS   : -161.884
+
+Type  : Slow 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -2.742
+TNS   : -75.320
+
+Type  : Slow 1100mV 85C Model Hold 'CLOCK_50'
+Slack : 0.377
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'twentySixBitCounter:twentySixBitCounter1|reached'
+Slack : 0.464
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Recovery 'twentySixBitCounter:twentySixBitCounter1|reached'
+Slack : -4.370
+TNS   : -62.145
+
+Type  : Slow 1100mV 85C Model Recovery 'CLOCK_50'
+Slack : -3.016
+TNS   : -80.426
+
+Type  : Slow 1100mV 85C Model Removal 'CLOCK_50'
+Slack : 0.887
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Removal 'twentySixBitCounter:twentySixBitCounter1|reached'
+Slack : 1.333
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.409
+TNS   : -16.829
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'twentySixBitCounter:twentySixBitCounter1|reached'
+Slack : -0.394
+TNS   : -28.677
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'KEY[0]'
+Slack : 0.032
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'twentySixBitCounter:twentySixBitCounter1|reached'
+Slack : -4.533
+TNS   : -160.091
+
+Type  : Slow 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -2.941
+TNS   : -74.898
+
+Type  : Slow 1100mV 0C Model Hold 'CLOCK_50'
+Slack : 0.375
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'twentySixBitCounter:twentySixBitCounter1|reached'
+Slack : 0.475
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Recovery 'twentySixBitCounter:twentySixBitCounter1|reached'
+Slack : -4.286
+TNS   : -61.678
+
+Type  : Slow 1100mV 0C Model Recovery 'CLOCK_50'
+Slack : -2.920
+TNS   : -71.979
+
+Type  : Slow 1100mV 0C Model Removal 'CLOCK_50'
+Slack : 0.647
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Removal 'twentySixBitCounter:twentySixBitCounter1|reached'
+Slack : 1.383
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'twentySixBitCounter:twentySixBitCounter1|reached'
+Slack : -0.394
+TNS   : -28.524
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.394
+TNS   : -18.102
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'KEY[0]'
+Slack : 0.054
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'twentySixBitCounter:twentySixBitCounter1|reached'
+Slack : -2.835
+TNS   : -96.091
+
+Type  : Fast 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -1.248
+TNS   : -32.080
+
+Type  : Fast 1100mV 85C Model Hold 'twentySixBitCounter:twentySixBitCounter1|reached'
+Slack : 0.172
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'CLOCK_50'
+Slack : 0.200
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Recovery 'twentySixBitCounter:twentySixBitCounter1|reached'
+Slack : -2.798
+TNS   : -40.631
+
+Type  : Fast 1100mV 85C Model Recovery 'CLOCK_50'
+Slack : -2.023
+TNS   : -55.443
+
+Type  : Fast 1100mV 85C Model Removal 'CLOCK_50'
+Slack : 0.522
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Removal 'twentySixBitCounter:twentySixBitCounter1|reached'
+Slack : 0.567
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.393
+TNS   : -3.210
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'KEY[0]'
+Slack : -0.185
+TNS   : -3.008
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'twentySixBitCounter:twentySixBitCounter1|reached'
+Slack : 0.004
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'twentySixBitCounter:twentySixBitCounter1|reached'
+Slack : -2.737
+TNS   : -91.338
+
+Type  : Fast 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -1.166
+TNS   : -27.135
+
+Type  : Fast 1100mV 0C Model Hold 'twentySixBitCounter:twentySixBitCounter1|reached'
+Slack : 0.156
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'CLOCK_50'
+Slack : 0.189
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Recovery 'twentySixBitCounter:twentySixBitCounter1|reached'
+Slack : -2.659
+TNS   : -39.802
+
+Type  : Fast 1100mV 0C Model Recovery 'CLOCK_50'
+Slack : -1.850
+TNS   : -48.899
+
+Type  : Fast 1100mV 0C Model Removal 'CLOCK_50'
+Slack : 0.340
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Removal 'twentySixBitCounter:twentySixBitCounter1|reached'
+Slack : 0.599
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.382
+TNS   : -3.168
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'KEY[0]'
+Slack : -0.147
+TNS   : -2.284
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'twentySixBitCounter:twentySixBitCounter1|reached'
+Slack : 0.036
+TNS   : 0.000
+
+------------------------------------------------------------

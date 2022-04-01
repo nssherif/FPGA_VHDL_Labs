@@ -1,0 +1,74 @@
+|hazard
+A => twoInputNand:g1.x
+A => twoInputNand:g1.y
+B => twoInputNand:g3.x
+B => twoInputNand:g4.x
+B => twoInputNand:g4.y
+C => twoInputNand:g2.x
+C => twoInputNand:g2.y
+C => twoInputNand:g3.y
+D => twoInputNand:g5.x
+D => twoInputNand:g5.y
+F << twoInputNand:g10.z
+
+
+|hazard|twoInputNand:g1
+x => z.IN0
+y => z.IN1
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hazard|twoInputNand:g2
+x => z.IN0
+y => z.IN1
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hazard|twoInputNand:g3
+x => z.IN0
+y => z.IN1
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hazard|twoInputNand:g4
+x => z.IN0
+y => z.IN1
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hazard|twoInputNand:g5
+x => z.IN0
+y => z.IN1
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hazard|twoInputNand:g6
+x => z.IN0
+y => z.IN1
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hazard|twoInputNand:g7
+x => z.IN0
+y => z.IN1
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hazard|twoInputNand:g8
+x => z.IN0
+y => z.IN1
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hazard|twoInputNand:g9
+x => z.IN0
+y => z.IN1
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|hazard|twoInputNand:g10
+x => z.IN0
+y => z.IN1
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+
+

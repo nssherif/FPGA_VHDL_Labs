@@ -1,0 +1,946 @@
+$comment
+	File created using the following command:
+		vcd file trafficLight.msim.vcd -direction
+$end
+$date
+	Thu Mar 31 16:02:49 2022
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module trafficLight_vlg_vec_tst $end
+$var reg 1 ! CLOCK_50 $end
+$var reg 4 " KEY [3:0] $end
+$var reg 10 # SW [9:0] $end
+$var wire 1 $ HEX0 [6] $end
+$var wire 1 % HEX0 [5] $end
+$var wire 1 & HEX0 [4] $end
+$var wire 1 ' HEX0 [3] $end
+$var wire 1 ( HEX0 [2] $end
+$var wire 1 ) HEX0 [1] $end
+$var wire 1 * HEX0 [0] $end
+$var wire 1 + HEX2 [6] $end
+$var wire 1 , HEX2 [5] $end
+$var wire 1 - HEX2 [4] $end
+$var wire 1 . HEX2 [3] $end
+$var wire 1 / HEX2 [2] $end
+$var wire 1 0 HEX2 [1] $end
+$var wire 1 1 HEX2 [0] $end
+$var wire 1 2 HEX3 [6] $end
+$var wire 1 3 HEX3 [5] $end
+$var wire 1 4 HEX3 [4] $end
+$var wire 1 5 HEX3 [3] $end
+$var wire 1 6 HEX3 [2] $end
+$var wire 1 7 HEX3 [1] $end
+$var wire 1 8 HEX3 [0] $end
+$var wire 1 9 HEX4 [6] $end
+$var wire 1 : HEX4 [5] $end
+$var wire 1 ; HEX4 [4] $end
+$var wire 1 < HEX4 [3] $end
+$var wire 1 = HEX4 [2] $end
+$var wire 1 > HEX4 [1] $end
+$var wire 1 ? HEX4 [0] $end
+$var wire 1 @ HEX5 [6] $end
+$var wire 1 A HEX5 [5] $end
+$var wire 1 B HEX5 [4] $end
+$var wire 1 C HEX5 [3] $end
+$var wire 1 D HEX5 [2] $end
+$var wire 1 E HEX5 [1] $end
+$var wire 1 F HEX5 [0] $end
+$var wire 1 G LEDR [9] $end
+$var wire 1 H LEDR [8] $end
+$var wire 1 I LEDR [7] $end
+$var wire 1 J LEDR [6] $end
+$var wire 1 K LEDR [5] $end
+$var wire 1 L LEDR [4] $end
+$var wire 1 M LEDR [3] $end
+$var wire 1 N LEDR [2] $end
+$var wire 1 O LEDR [1] $end
+$var wire 1 P LEDR [0] $end
+
+$scope module i1 $end
+$var wire 1 Q gnd $end
+$var wire 1 R vcc $end
+$var wire 1 S unknown $end
+$var tri1 1 T devclrn $end
+$var tri1 1 U devpor $end
+$var tri1 1 V devoe $end
+$var wire 1 W KEY[0]~input_o $end
+$var wire 1 X KEY[1]~input_o $end
+$var wire 1 Y KEY[2]~input_o $end
+$var wire 1 Z KEY[3]~input_o $end
+$var wire 1 [ SW[0]~input_o $end
+$var wire 1 \ SW[3]~input_o $end
+$var wire 1 ] SW[4]~input_o $end
+$var wire 1 ^ SW[5]~input_o $end
+$var wire 1 _ SW[6]~input_o $end
+$var wire 1 ` SW[7]~input_o $end
+$var wire 1 a SW[8]~input_o $end
+$var wire 1 b SW[9]~input_o $end
+$var wire 1 c ~QUARTUS_CREATED_GND~I_combout $end
+$var wire 1 d CLOCK_50~input_o $end
+$var wire 1 e CLOCK_50~inputCLKENA0_outclk $end
+$var wire 1 f twentySixBitCounter1|Add0~41_sumout $end
+$var wire 1 g twentySixBitCounter1|Add0~42 $end
+$var wire 1 h twentySixBitCounter1|Add0~45_sumout $end
+$var wire 1 i twentySixBitCounter1|Add0~46 $end
+$var wire 1 j twentySixBitCounter1|Add0~49_sumout $end
+$var wire 1 k twentySixBitCounter1|Add0~50 $end
+$var wire 1 l twentySixBitCounter1|Add0~53_sumout $end
+$var wire 1 m twentySixBitCounter1|Add0~54 $end
+$var wire 1 n twentySixBitCounter1|Add0~57_sumout $end
+$var wire 1 o twentySixBitCounter1|Add0~58 $end
+$var wire 1 p twentySixBitCounter1|Add0~37_sumout $end
+$var wire 1 q twentySixBitCounter1|Add0~38 $end
+$var wire 1 r twentySixBitCounter1|Add0~61_sumout $end
+$var wire 1 s twentySixBitCounter1|Add0~62 $end
+$var wire 1 t twentySixBitCounter1|Add0~65_sumout $end
+$var wire 1 u twentySixBitCounter1|Add0~66 $end
+$var wire 1 v twentySixBitCounter1|Add0~69_sumout $end
+$var wire 1 w twentySixBitCounter1|Add0~70 $end
+$var wire 1 x twentySixBitCounter1|Add0~73_sumout $end
+$var wire 1 y twentySixBitCounter1|Add0~74 $end
+$var wire 1 z twentySixBitCounter1|Add0~77_sumout $end
+$var wire 1 { twentySixBitCounter1|Add0~78 $end
+$var wire 1 | twentySixBitCounter1|Add0~81_sumout $end
+$var wire 1 } twentySixBitCounter1|Add0~82 $end
+$var wire 1 ~ twentySixBitCounter1|Add0~85_sumout $end
+$var wire 1 !! twentySixBitCounter1|Add0~86 $end
+$var wire 1 "! twentySixBitCounter1|Add0~89_sumout $end
+$var wire 1 #! twentySixBitCounter1|Add0~90 $end
+$var wire 1 $! twentySixBitCounter1|Add0~93_sumout $end
+$var wire 1 %! twentySixBitCounter1|Add0~94 $end
+$var wire 1 &! twentySixBitCounter1|Add0~97_sumout $end
+$var wire 1 '! twentySixBitCounter1|Add0~98 $end
+$var wire 1 (! twentySixBitCounter1|Add0~101_sumout $end
+$var wire 1 )! twentySixBitCounter1|Add0~102 $end
+$var wire 1 *! twentySixBitCounter1|Add0~1_sumout $end
+$var wire 1 +! twentySixBitCounter1|Add0~2 $end
+$var wire 1 ,! twentySixBitCounter1|Add0~5_sumout $end
+$var wire 1 -! twentySixBitCounter1|Equal0~3_combout $end
+$var wire 1 .! twentySixBitCounter1|tempCount[8]~DUPLICATE_q $end
+$var wire 1 /! twentySixBitCounter1|tempCount[7]~DUPLICATE_q $end
+$var wire 1 0! twentySixBitCounter1|Equal0~2_combout $end
+$var wire 1 1! twentySixBitCounter1|Add0~6 $end
+$var wire 1 2! twentySixBitCounter1|Add0~13_sumout $end
+$var wire 1 3! twentySixBitCounter1|tempCount[19]~DUPLICATE_q $end
+$var wire 1 4! twentySixBitCounter1|Add0~14 $end
+$var wire 1 5! twentySixBitCounter1|Add0~17_sumout $end
+$var wire 1 6! twentySixBitCounter1|Add0~18 $end
+$var wire 1 7! twentySixBitCounter1|Add0~21_sumout $end
+$var wire 1 8! twentySixBitCounter1|Add0~22 $end
+$var wire 1 9! twentySixBitCounter1|Add0~25_sumout $end
+$var wire 1 :! twentySixBitCounter1|Add0~26 $end
+$var wire 1 ;! twentySixBitCounter1|Add0~29_sumout $end
+$var wire 1 <! twentySixBitCounter1|tempCount[23]~DUPLICATE_q $end
+$var wire 1 =! twentySixBitCounter1|Add0~30 $end
+$var wire 1 >! twentySixBitCounter1|Add0~9_sumout $end
+$var wire 1 ?! twentySixBitCounter1|Equal0~0_combout $end
+$var wire 1 @! twentySixBitCounter1|tempCount[5]~DUPLICATE_q $end
+$var wire 1 A! twentySixBitCounter1|tempCount[0]~DUPLICATE_q $end
+$var wire 1 B! twentySixBitCounter1|tempCount[2]~DUPLICATE_q $end
+$var wire 1 C! twentySixBitCounter1|Add0~10 $end
+$var wire 1 D! twentySixBitCounter1|Add0~33_sumout $end
+$var wire 1 E! twentySixBitCounter1|Equal0~1_combout $end
+$var wire 1 F! twentySixBitCounter1|Equal0~4_combout $end
+$var wire 1 G! twentySixBitCounter1|reached~q $end
+$var wire 1 H! SW[2]~input_o $end
+$var wire 1 I! countTenSecond|tempCount[0]~4_combout $end
+$var wire 1 J! SW[1]~input_o $end
+$var wire 1 K! countSevenSecond|tempCount[0]~4_combout $end
+$var wire 1 L! traffic_lights_state.NS_LEFT~DUPLICATE_q $end
+$var wire 1 M! HEX3Vals[0]~0_combout $end
+$var wire 1 N! countSevenSecond|tempCount[1]~3_combout $end
+$var wire 1 O! countSevenSecond|tempCount[2]~2_combout $end
+$var wire 1 P! countSevenSecond|tempCount[2]~DUPLICATE_q $end
+$var wire 1 Q! countSevenSecond|tempCount[3]~0_combout $end
+$var wire 1 R! countSevenSecond|tempCount[4]~1_combout $end
+$var wire 1 S! Equal2~0_combout $end
+$var wire 1 T! Selector0~0_combout $end
+$var wire 1 U! traffic_lights_state.EW_GREEN~q $end
+$var wire 1 V! resetHEXVal~0_combout $end
+$var wire 1 W! downCounter|tempCount[2]~DUPLICATE_q $end
+$var wire 1 X! downCounter|tempCount[0]~5_combout $end
+$var wire 1 Y! downCounter|tempCount[1]~0_combout $end
+$var wire 1 Z! downCounter|tempCount[1]~DUPLICATE_q $end
+$var wire 1 [! downCounter|tempCount[3]~2_combout $end
+$var wire 1 \! downCounter|tempCount[3]~DUPLICATE_q $end
+$var wire 1 ]! downCounter|tempCount[4]~3_combout $end
+$var wire 1 ^! downCounter|tempCount[2]~1_combout $end
+$var wire 1 _! Equal3~0_combout $end
+$var wire 1 `! Selector6~0_combout $end
+$var wire 1 a! traffic_lights_state.EW_End_State~q $end
+$var wire 1 b! countThreeSecond|tempCount[0]~4_combout $end
+$var wire 1 c! WideOr23~combout $end
+$var wire 1 d! countThreeSecond|tempCount[1]~3_combout $end
+$var wire 1 e! countThreeSecond|tempCount[0]~DUPLICATE_q $end
+$var wire 1 f! countThreeSecond|tempCount[4]~2_combout $end
+$var wire 1 g! countThreeSecond|tempCount[2]~0_combout $end
+$var wire 1 h! countThreeSecond|tempCount[3]~1_combout $end
+$var wire 1 i! Equal1~0_combout $end
+$var wire 1 j! Selector7~0_combout $end
+$var wire 1 k! traffic_lights_state.EW_Buffer_State~q $end
+$var wire 1 l! traffic_lights_state.EW_YELLOw~q $end
+$var wire 1 m! Selector2~0_combout $end
+$var wire 1 n! traffic_lights_state.NS_LEFT~q $end
+$var wire 1 o! Selector3~0_combout $end
+$var wire 1 p! traffic_lights_state.NS_GREEN~q $end
+$var wire 1 q! WideOr10~0_combout $end
+$var wire 1 r! countTenSecond|tempCount[3]~2_combout $end
+$var wire 1 s! countTenSecond|tempCount[4]~3_combout $end
+$var wire 1 t! countTenSecond|tempCount[1]~0_combout $end
+$var wire 1 u! countTenSecond|tempCount[2]~1_combout $end
+$var wire 1 v! Equal0~0_combout $end
+$var wire 1 w! Selector8~0_combout $end
+$var wire 1 x! traffic_lights_state.NS_End_State~q $end
+$var wire 1 y! Selector9~0_combout $end
+$var wire 1 z! traffic_lights_state.NS_Buffer_State~DUPLICATE_q $end
+$var wire 1 {! traffic_lights_state.NS_YELLOW~q $end
+$var wire 1 |! Selector5~0_combout $end
+$var wire 1 }! traffic_lights_state.EW_LEFT~q $end
+$var wire 1 ~! WideOr3~combout $end
+$var wire 1 !" WideOr2~combout $end
+$var wire 1 "" traffic_lights_state.NS_Buffer_State~q $end
+$var wire 1 #" WideOr1~combout $end
+$var wire 1 $" WideOr0~combout $end
+$var wire 1 %" LEDR~4_combout $end
+$var wire 1 &" LEDR~5_combout $end
+$var wire 1 '" HexValues1|Mux6~0_combout $end
+$var wire 1 (" HexValues1|Mux5~0_combout $end
+$var wire 1 )" HexValues1|Mux4~0_combout $end
+$var wire 1 *" HexValues1|Mux3~0_combout $end
+$var wire 1 +" HexValues1|Mux2~0_combout $end
+$var wire 1 ," HexValues1|Mux1~0_combout $end
+$var wire 1 -" HexValues1|Mux0~0_combout $end
+$var wire 1 ." HexValues3|Mux6~0_combout $end
+$var wire 1 /" HexValues3|Mux5~0_combout $end
+$var wire 1 0" HexValues3|Mux4~0_combout $end
+$var wire 1 1" HexValues3|Mux3~0_combout $end
+$var wire 1 2" HexValues3|Mux1~0_combout $end
+$var wire 1 3" HexValues4|Mux6~0_combout $end
+$var wire 1 4" HexValues4|Mux5~0_combout $end
+$var wire 1 5" HexValues4|Mux2~0_combout $end
+$var wire 1 6" HexValues4|Mux1~0_combout $end
+$var wire 1 7" HexValues4|Mux0~0_combout $end
+$var wire 1 8" HexValues5|Mux6~0_combout $end
+$var wire 1 9" HexValues5|Mux5~0_combout $end
+$var wire 1 :" HexValues5|Mux4~0_combout $end
+$var wire 1 ;" HexValues5|Mux3~0_combout $end
+$var wire 1 <" HexValues5|Mux2~0_combout $end
+$var wire 1 =" HexValues5|Mux0~0_combout $end
+$var wire 1 >" HexValues6|Mux6~0_combout $end
+$var wire 1 ?" WideOr5~combout $end
+$var wire 1 @" HexValues6|Mux2~0_combout $end
+$var wire 1 A" twentySixBitCounter1|tempCount [25] $end
+$var wire 1 B" twentySixBitCounter1|tempCount [24] $end
+$var wire 1 C" twentySixBitCounter1|tempCount [23] $end
+$var wire 1 D" twentySixBitCounter1|tempCount [22] $end
+$var wire 1 E" twentySixBitCounter1|tempCount [21] $end
+$var wire 1 F" twentySixBitCounter1|tempCount [20] $end
+$var wire 1 G" twentySixBitCounter1|tempCount [19] $end
+$var wire 1 H" twentySixBitCounter1|tempCount [18] $end
+$var wire 1 I" twentySixBitCounter1|tempCount [17] $end
+$var wire 1 J" twentySixBitCounter1|tempCount [16] $end
+$var wire 1 K" twentySixBitCounter1|tempCount [15] $end
+$var wire 1 L" twentySixBitCounter1|tempCount [14] $end
+$var wire 1 M" twentySixBitCounter1|tempCount [13] $end
+$var wire 1 N" twentySixBitCounter1|tempCount [12] $end
+$var wire 1 O" twentySixBitCounter1|tempCount [11] $end
+$var wire 1 P" twentySixBitCounter1|tempCount [10] $end
+$var wire 1 Q" twentySixBitCounter1|tempCount [9] $end
+$var wire 1 R" twentySixBitCounter1|tempCount [8] $end
+$var wire 1 S" twentySixBitCounter1|tempCount [7] $end
+$var wire 1 T" twentySixBitCounter1|tempCount [6] $end
+$var wire 1 U" twentySixBitCounter1|tempCount [5] $end
+$var wire 1 V" twentySixBitCounter1|tempCount [4] $end
+$var wire 1 W" twentySixBitCounter1|tempCount [3] $end
+$var wire 1 X" twentySixBitCounter1|tempCount [2] $end
+$var wire 1 Y" twentySixBitCounter1|tempCount [1] $end
+$var wire 1 Z" twentySixBitCounter1|tempCount [0] $end
+$var wire 1 [" downCounter|tempCount [4] $end
+$var wire 1 \" downCounter|tempCount [3] $end
+$var wire 1 ]" downCounter|tempCount [2] $end
+$var wire 1 ^" downCounter|tempCount [1] $end
+$var wire 1 _" downCounter|tempCount [0] $end
+$var wire 1 `" countSevenSecond|tempCount [4] $end
+$var wire 1 a" countSevenSecond|tempCount [3] $end
+$var wire 1 b" countSevenSecond|tempCount [2] $end
+$var wire 1 c" countSevenSecond|tempCount [1] $end
+$var wire 1 d" countSevenSecond|tempCount [0] $end
+$var wire 1 e" countThreeSecond|tempCount [4] $end
+$var wire 1 f" countThreeSecond|tempCount [3] $end
+$var wire 1 g" countThreeSecond|tempCount [2] $end
+$var wire 1 h" countThreeSecond|tempCount [1] $end
+$var wire 1 i" countThreeSecond|tempCount [0] $end
+$var wire 1 j" countTenSecond|tempCount [4] $end
+$var wire 1 k" countTenSecond|tempCount [3] $end
+$var wire 1 l" countTenSecond|tempCount [2] $end
+$var wire 1 m" countTenSecond|tempCount [1] $end
+$var wire 1 n" countTenSecond|tempCount [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+b0 "
+b0 #
+1*
+1)
+1(
+1'
+1&
+1%
+1$
+11
+10
+0/
+0.
+0-
+1,
+0+
+08
+07
+06
+05
+14
+03
+02
+1?
+0>
+0=
+0<
+0;
+0:
+19
+0F
+1E
+1D
+0C
+0B
+0A
+0@
+0P
+1O
+0N
+0M
+0L
+0K
+0J
+1I
+1H
+0G
+0Q
+1R
+xS
+1T
+1U
+1V
+0W
+0X
+0Y
+0Z
+0[
+0\
+0]
+0^
+0_
+0`
+0a
+0b
+0c
+0d
+0e
+1f
+0g
+0h
+0i
+0j
+0k
+0l
+0m
+0n
+0o
+0p
+0q
+0r
+0s
+0t
+0u
+0v
+0w
+0x
+0y
+0z
+0{
+0|
+0}
+0~
+0!!
+0"!
+0#!
+0$!
+0%!
+0&!
+0'!
+0(!
+0)!
+0*!
+0+!
+0,!
+0-!
+0.!
+0/!
+00!
+01!
+02!
+03!
+04!
+05!
+06!
+07!
+08!
+09!
+0:!
+0;!
+0<!
+0=!
+0>!
+0?!
+0@!
+0A!
+0B!
+0C!
+0D!
+0E!
+0F!
+0G!
+0H!
+1I!
+0J!
+1K!
+0L!
+0M!
+0N!
+0O!
+0P!
+0Q!
+0R!
+0S!
+0T!
+0U!
+0V!
+0W!
+1X!
+0Y!
+0Z!
+0[!
+0\!
+0]!
+0^!
+0_!
+0`!
+0a!
+1b!
+0c!
+0d!
+0e!
+0f!
+0g!
+0h!
+0i!
+0j!
+0k!
+0l!
+0m!
+0n!
+0o!
+0p!
+1q!
+0r!
+0s!
+0t!
+0u!
+0v!
+0w!
+0x!
+0y!
+0z!
+0{!
+0|!
+0}!
+1~!
+1!"
+0""
+0#"
+0$"
+0%"
+1&"
+1'"
+1("
+1)"
+1*"
+1+"
+1,"
+1-"
+0."
+1/"
+00"
+11"
+12"
+13"
+14"
+15"
+16"
+07"
+08"
+19"
+0:"
+0;"
+0<"
+1="
+0>"
+1?"
+1@"
+0Z"
+0Y"
+0X"
+0W"
+0V"
+0U"
+0T"
+0S"
+0R"
+0Q"
+0P"
+0O"
+0N"
+0M"
+0L"
+0K"
+0J"
+0I"
+0H"
+0G"
+0F"
+0E"
+0D"
+0C"
+0B"
+0A"
+0_"
+0^"
+0]"
+0\"
+0["
+0d"
+0c"
+0b"
+0a"
+0`"
+0i"
+0h"
+0g"
+0f"
+0e"
+0n"
+0m"
+0l"
+0k"
+0j"
+$end
+#25000
+1!
+1d
+1e
+1A!
+1Z"
+1g
+0f
+1h
+#50000
+0!
+0d
+0e
+#75000
+1!
+1d
+1e
+0A!
+1Y"
+0Z"
+0g
+1i
+1f
+0h
+0i
+1h
+1j
+0j
+#100000
+0!
+0d
+0e
+#125000
+1!
+1d
+1e
+1A!
+1Z"
+1g
+0f
+1i
+0h
+1j
+#150000
+0!
+0d
+0e
+#175000
+1!
+1d
+1e
+1B!
+0A!
+1X"
+0Y"
+0Z"
+0g
+0i
+1k
+1f
+1h
+0j
+0k
+0h
+1j
+1l
+0l
+#200000
+0!
+0d
+0e
+#225000
+1!
+1d
+1e
+1A!
+1Z"
+1g
+0f
+1h
+#250000
+0!
+0d
+0e
+#275000
+1!
+1d
+1e
+0A!
+1Y"
+0Z"
+0g
+1i
+1f
+0h
+0i
+1k
+1h
+0j
+0k
+1j
+1l
+0l
+#300000
+0!
+0d
+0e
+#325000
+1!
+1d
+1e
+1A!
+1Z"
+1g
+0f
+1i
+0h
+1k
+0j
+1l
+#350000
+b10 #
+0!
+1J!
+0d
+0e
+#375000
+1!
+1d
+1e
+0B!
+0A!
+1W"
+0X"
+0Y"
+0Z"
+0g
+0i
+0k
+1m
+1f
+1h
+1j
+0l
+0m
+0h
+0j
+1l
+1n
+0n
+#400000
+0!
+0d
+0e
+#425000
+1!
+1d
+1e
+1A!
+1Z"
+1g
+0f
+1h
+#450000
+0!
+0d
+0e
+#470000
+b0 #
+0J!
+#475000
+1!
+1d
+1e
+0A!
+1Y"
+0Z"
+0g
+1i
+1f
+0h
+0i
+1h
+1j
+0j
+#500000
+0!
+0d
+0e
+#525000
+1!
+1d
+1e
+1A!
+1Z"
+1g
+0f
+1i
+0h
+1j
+#550000
+0!
+0d
+0e
+#575000
+1!
+1d
+1e
+1B!
+0A!
+1X"
+0Y"
+0Z"
+0g
+0i
+1k
+1f
+1h
+0j
+0k
+1m
+0h
+1j
+0l
+0m
+1l
+1n
+0n
+#600000
+0!
+0d
+0e
+#625000
+1!
+1d
+1e
+1A!
+1Z"
+1g
+0f
+1h
+#650000
+0!
+0d
+0e
+#675000
+1!
+1d
+1e
+0A!
+1Y"
+0Z"
+0g
+1i
+1f
+0h
+0i
+1k
+1h
+0j
+0k
+1m
+1j
+0l
+0m
+1l
+1n
+0n
+#700000
+0!
+0d
+0e
+#725000
+1!
+1d
+1e
+1A!
+1Z"
+1g
+0f
+1i
+0h
+1k
+0j
+1m
+0l
+1n
+#750000
+0!
+0d
+0e
+#775000
+1!
+1d
+1e
+0B!
+0A!
+1V"
+0W"
+0X"
+0Y"
+0Z"
+0g
+0i
+0k
+0m
+1o
+1f
+1h
+1j
+1l
+0n
+0o
+0h
+0j
+0l
+1n
+1p
+0p
+#800000
+0!
+0d
+0e
+#825000
+1!
+1d
+1e
+1A!
+1Z"
+1g
+0f
+1h
+#850000
+0!
+0d
+0e
+#875000
+1!
+1d
+1e
+0A!
+1Y"
+0Z"
+0g
+1i
+1f
+0h
+0i
+1h
+1j
+0j
+#900000
+0!
+0d
+0e
+#925000
+1!
+1d
+1e
+1A!
+1Z"
+1g
+0f
+1i
+0h
+1j
+#950000
+0!
+0d
+0e
+#975000
+1!
+1d
+1e
+1B!
+0A!
+1X"
+0Y"
+0Z"
+0g
+0i
+1k
+1f
+1h
+0j
+0k
+0h
+1j
+1l
+0l
+#1000000

@@ -1,0 +1,26 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+
+
+entity twentySixBitCounter is
+	port (reset, clk: in std_logic;
+			output: out std_logic);
+end twentySixBitCounter;
+
+architecture Structure of twentySixBitCounter is
+	signal tempCount: std_logic_vector(25 downto 0) ;
+begin
+	process(clk,reset)
+	begin
+		if (clk'event and clk='1') then
+			if (reset = '1') then
+				tempCount <= "00000000000000000000000000";
+			else
+				tempCount <= tempCount + '1';
+			end if;
+		end if;	
+	end process;
+	output <= tempCount(4) and tempCount(3) and tempCount(1);
+
+end Structure;

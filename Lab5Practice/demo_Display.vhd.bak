@@ -1,0 +1,28 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+
+
+entity demo_Display is
+	port (Reset: in std_logic;
+			Leds: out std_logic_vector(9 downto 0));
+end demp_Display;
+
+architecture Structure of demo_Display is
+
+	component fourBitCounter is
+		port (reset, clk: in std_logic;
+				output: out std_logic_vector(3 downto 0));
+	end component;
+	
+	component twentyBitCounter is
+		port (reset, clkTwentyBit: in std_logic;
+				output: out std_logic_vector(19 downto 0));
+	end component;
+	
+	component tenBitShiftRegister IS
+		PORT( s0 , s1 , sil , sir , clk , clrb: in std_logic;
+				l: in std_logic_vector (9 downto 0);
+				q: out std_logic_vector (9 downto 0));
+	END component;
+end Structure;

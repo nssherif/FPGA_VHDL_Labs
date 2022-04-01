@@ -1,0 +1,362 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dH:/My Documents/Downloads/ECE5500/Lab7/simulation/qsim
+Efiveinputnand
+Z1 w1648157686
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 41KVoNENnj;RUmMIITVQg1
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx8 cyclonev 19 cyclonev_components 0 22 MmMkVfW5JWkR?lm<VcfRO1
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z8 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 3L]34bNSPL@[RD2AeKH]S3
+R0
+Z9 8Hazard.vho
+Z10 FHazard.vho
+l0
+L37
+V6CCo@ojYk13Q^kn7D8Sd80
+!s100 Y`h652[W6lj>PZ=iV1^JH2
+Z11 OV;C;10.5b;63
+32
+Z12 !s110 1648157687
+!i10b 1
+Z13 !s108 1648157687.000000
+Z14 !s90 -work|work|Hazard.vho|
+Z15 !s107 Hazard.vho|
+!i113 1
+Z16 o-work work
+Z17 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+DEx4 work 13 fiveinputnand 0 22 6CCo@ojYk13Q^kn7D8Sd80
+l85
+L57
+V2L>_YjEKI0]NF9U]<`3m10
+!s100 E3`;ne;38HJiW^b]z1zSD1
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 1
+R16
+R17
+Efiveinputnand_vhd_vec_tst
+Z18 w1648157683
+R6
+R7
+R0
+Z19 8Waveform1.vwf.vht
+Z20 FWaveform1.vwf.vht
+l0
+L32
+VjQPaDaLU4:Kk1EIJSLE<K3
+!s100 e`_2z0MOR0TMMID^3[EZ[3
+R11
+32
+Z21 !s110 1648157688
+!i10b 1
+Z22 !s108 1648157688.000000
+Z23 !s90 -work|work|Waveform1.vwf.vht|
+Z24 !s107 Waveform1.vwf.vht|
+!i113 1
+R16
+R17
+Afiveinputnand_arch
+R6
+R7
+DEx4 work 25 fiveinputnand_vhd_vec_tst 0 22 jQPaDaLU4:Kk1EIJSLE<K3
+l53
+L34
+VhW1YYBU2M>0@0e^Do>CVc3
+!s100 Wc7o1c;:[?E^DHM52K]G<3
+R11
+32
+R21
+!i10b 1
+R22
+R23
+R24
+!i113 1
+R16
+R17
+Ehazard
+Z25 w1648159807
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R0
+R9
+R10
+l0
+L37
+VG=bd9>E]Ko`hoA?XYac<W1
+!s100 jCAJA>UZP?KXICn7TFFUg0
+R11
+32
+Z26 !s110 1648159808
+!i10b 1
+Z27 !s108 1648159808.000000
+R14
+R15
+!i113 1
+R16
+R17
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+DEx4 work 6 hazard 0 22 G=bd9>E]Ko`hoA?XYac<W1
+l81
+L55
+VUVY^12dR<4A9ON`DPf5ed1
+!s100 3OTA4;zA8KU]8:^9QTeQU0
+R11
+32
+R26
+!i10b 1
+R27
+R14
+R15
+!i113 1
+R16
+R17
+Ehazard2
+Z28 w1648163365
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R0
+R9
+R10
+l0
+L37
+V1gK5e0^^Z<ReZA2XBI75c2
+!s100 ;JcEZ2OTJHGYlD0@A1f[]0
+R11
+32
+Z29 !s110 1648163367
+!i10b 1
+Z30 !s108 1648163366.000000
+R14
+R15
+!i113 1
+R16
+R17
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+DEx4 work 7 hazard2 0 22 1gK5e0^^Z<ReZA2XBI75c2
+l82
+L55
+VKn:g8QHz7eoTfP?cTE_ao2
+!s100 6fAhLGK96HM?Fdc2lG^;N2
+R11
+32
+R29
+!i10b 1
+R30
+R14
+R15
+!i113 1
+R16
+R17
+Ehazard2_vhd_vec_tst
+Z31 w1648163363
+R6
+R7
+R0
+Z32 8Waveform4.vwf.vht
+Z33 FWaveform4.vwf.vht
+l0
+L32
+VgA_<IMF:dm9zo<iDLN[8E2
+!s100 jIcQ?HSd[=n6gVj=Khn4?2
+R11
+32
+Z34 !s110 1648163373
+!i10b 1
+Z35 !s108 1648163372.000000
+Z36 !s90 -work|work|Waveform4.vwf.vht|
+Z37 !s107 Waveform4.vwf.vht|
+!i113 1
+R16
+R17
+Ahazard2_arch
+R6
+R7
+DEx4 work 19 hazard2_vhd_vec_tst 0 22 gA_<IMF:dm9zo<iDLN[8E2
+l51
+L34
+Vzj5YlG3:Sl<0:4FDOY2eD0
+!s100 ]O9Vl1lF9bR^1l@]T<Y`12
+R11
+32
+R34
+!i10b 1
+R35
+R36
+R37
+!i113 1
+R16
+R17
+Ehazard_vhd_vec_tst
+Z38 w1648159805
+R6
+R7
+R0
+Z39 8Waveform2.vwf.vht
+Z40 FWaveform2.vwf.vht
+l0
+L32
+V<J][]0DhHU;JblN3bbQ160
+!s100 ebbjIac?Ml5ak=DIVX`Y:1
+R11
+32
+R26
+!i10b 1
+R27
+Z41 !s90 -work|work|Waveform2.vwf.vht|
+Z42 !s107 Waveform2.vwf.vht|
+!i113 1
+R16
+R17
+Ahazard_arch
+R6
+R7
+DEx4 work 18 hazard_vhd_vec_tst 0 22 <J][]0DhHU;JblN3bbQ160
+l51
+L34
+V=cJkjfz=LC<i@_f3gkWOR1
+!s100 <GccBQ7fCC6FVShXQbfOZ3
+R11
+32
+R26
+!i10b 1
+R27
+R41
+R42
+!i113 1
+R16
+R17
+Etwoinputnand
+Z43 w1648159051
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R0
+R9
+R10
+l0
+L37
+V72kiWlZQEanc4H`5WmFPM1
+!s100 SLDPSe6;gWS7>^_ZGdV8M1
+R11
+32
+Z44 !s110 1648159052
+!i10b 1
+Z45 !s108 1648159052.000000
+R14
+R15
+!i113 1
+R16
+R17
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+DEx4 work 12 twoinputnand 0 22 72kiWlZQEanc4H`5WmFPM1
+l72
+L51
+VP2GRaBmTPRXbJ0mQQ^]kH3
+!s100 ZDYG<<J^SF^0Y9QI2E[8N3
+R11
+32
+R44
+!i10b 1
+R45
+R14
+R15
+!i113 1
+R16
+R17
+Etwoinputnand_vhd_vec_tst
+Z46 w1648159049
+R6
+R7
+R0
+Z47 8Waveform3.vwf.vht
+Z48 FWaveform3.vwf.vht
+l0
+L32
+Vo8_PhGi<k0TNblMW41<:E1
+!s100 f^__Q1Zf_6SIS:ONCI]7E2
+R11
+32
+R44
+!i10b 1
+R45
+Z49 !s90 -work|work|Waveform3.vwf.vht|
+Z50 !s107 Waveform3.vwf.vht|
+!i113 1
+R16
+R17
+Atwoinputnand_arch
+R6
+R7
+DEx4 work 24 twoinputnand_vhd_vec_tst 0 22 o8_PhGi<k0TNblMW41<:E1
+l47
+L34
+Vi2Kae9V:P=]dX:UA_;D[z1
+!s100 a5E94mQQ5QO7X<3EFc0ak2
+R11
+32
+R44
+!i10b 1
+R45
+R49
+R50
+!i113 1
+R16
+R17

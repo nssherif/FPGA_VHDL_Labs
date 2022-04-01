@@ -1,0 +1,100 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+entity demo_display is
+	port( START , STOP , REVERSE , clk , rstb: in std_logic;
+			leds: out std_logic_vector (7 downto 0));
+end demo_display;
+
+architecture Structure of demo_display is
+
+	component counter4bit is
+		port( clk , clrb , ld: in std_logic;
+				l: in std_logic_vector (3 downto 0);
+				q: out std_logic_vector (3 downto 0));
+	end component;
+	
+	component shiftreg8bit is
+	port( s0, s1, sil , sir , clk , clrb: in std_logic;
+			l: in std_logic_vector (7 downto 0);
+			q: out std_logic_vector (7 downto 0));
+	end component;
+	
+	type state_type is (IDLE , LEFT , RIGHT );
+	signal current_state , next_state: state_type;
+	signal led_init , led_vals: std_logic_vector (7 downto 0);
+	signal counter_init: std_logic_vector (3 downto 0);
+	signal counter_vals: std_logic_vector (3 downto 0);
+	signal load_cnt , s0 , s1 , sil , sir , clk_11: std_logic;
+	
+	begin
+	
+	-- Implement datapath components
+	led_init <= "10000000";
+	counter_init <= "0000";
+	cnt0: counter4bit port map (clk , rstb , load_cnt ,
+	counter_init , counter_vals );
+	shft0: shiftreg8bit port map (s0, s1, sil , sir , clk , rstb ,
+	led_init , led_vals );
+	sir <= led_vals (0);
+	sil <= led_vals (7);
+	clk_11 <= counter_vals (3) and counter_vals (1);
+	leds <= led_vals;
+	-- Implement state machine ----------------
+	-- Flip -flops for state
+	process(clk , rstb)
+		begin
+			if (rstb = ’0’) then
+				current_state <= IDLE;
+				
+			elsif (clk ’event and clk = ’1’) then
+				current_state <= next_state;
+			end if;
+	end process;
+	
+			-- Next state generation including outputs
+	process(current_state , START , STOP , REVERSE , clk_11)
+		begin
+			-- Set defaults for all outputs
+			s0 <= ’0’;
+			s1 <= ’0’;
+			load_cnt <= ’0’;
+			case current_state is
+				when IDLE =>
+					if (START = ’1’) then
+						next_state <= LEFT;
+						s0 <= ’1’;
+						s1 <= ’1’;
+						load_cnt <= ’1’;
+					else
+						next_state <= IDLE;
+					end if;
+				when LEFT =>
+					s0 <= ’1’;
+					if (STOP = ’1’) then
+					next_state <= IDLE;
+					else
+					if (( clk_11 = ’1’) or (REVERSE = ’1’)) then
+					next_state <= RIGHT;
+					load_cnt <= ’1’;
+					else
+					next_state <= LEFT;
+					end if;
+					end if;
+				when RIGHT =>
+					s1 <= ’1’;
+					if (STOP = ’1’) then
+					next_state <= IDLE;
+					else
+					if (( clk_11 = ’1’) or (REVERSE = ’1’)) then
+					next_state <= LEFT;
+					load_cnt <= ’1’;
+					else
+					next_state <= RIGHT;
+					end if;
+					end if;
+				when others =>
+				next_state <= IDLE;
+			end case;
+	end process;
+end Structure;

@@ -1,0 +1,101 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -2.509
+TNS   : -74.916
+
+Type  : Slow 1100mV 85C Model Setup 'twentySixBitCounter:twentySixBitCounter1|reached'
+Slack : -2.013
+TNS   : -63.796
+
+Type  : Slow 1100mV 85C Model Hold 'CLOCK_50'
+Slack : 0.384
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'twentySixBitCounter:twentySixBitCounter1|reached'
+Slack : 0.447
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.396
+TNS   : -16.870
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'twentySixBitCounter:twentySixBitCounter1|reached'
+Slack : -0.394
+TNS   : -21.004
+
+Type  : Slow 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -2.622
+TNS   : -74.499
+
+Type  : Slow 1100mV 0C Model Setup 'twentySixBitCounter:twentySixBitCounter1|reached'
+Slack : -1.993
+TNS   : -61.948
+
+Type  : Slow 1100mV 0C Model Hold 'CLOCK_50'
+Slack : 0.383
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'twentySixBitCounter:twentySixBitCounter1|reached'
+Slack : 0.458
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.431
+TNS   : -18.286
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'twentySixBitCounter:twentySixBitCounter1|reached'
+Slack : -0.394
+TNS   : -20.889
+
+Type  : Fast 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -1.202
+TNS   : -34.772
+
+Type  : Fast 1100mV 85C Model Setup 'twentySixBitCounter:twentySixBitCounter1|reached'
+Slack : -0.936
+TNS   : -25.289
+
+Type  : Fast 1100mV 85C Model Hold 'twentySixBitCounter:twentySixBitCounter1|reached'
+Slack : 0.168
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'CLOCK_50'
+Slack : 0.203
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.455
+TNS   : -3.288
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'twentySixBitCounter:twentySixBitCounter1|reached'
+Slack : 0.085
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -1.073
+TNS   : -28.634
+
+Type  : Fast 1100mV 0C Model Setup 'twentySixBitCounter:twentySixBitCounter1|reached'
+Slack : -0.807
+TNS   : -21.523
+
+Type  : Fast 1100mV 0C Model Hold 'twentySixBitCounter:twentySixBitCounter1|reached'
+Slack : 0.153
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'CLOCK_50'
+Slack : 0.191
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.467
+TNS   : -3.243
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'twentySixBitCounter:twentySixBitCounter1|reached'
+Slack : 0.102
+TNS   : 0.000
+
+------------------------------------------------------------

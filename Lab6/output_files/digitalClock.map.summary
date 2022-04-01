@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Wed Mar 16 15:13:24 2022
+Quartus Prime Version : 16.1.1 Build 200 11/30/2016 SJ Lite Edition
+Revision Name : digitalClock
+Top-level Entity Name : digitalClock
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 77
+Total pins : 63
+Total virtual pins : 0
+Total block memory bits : 0
+Total DSP Blocks : 0
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 0
+Total DLLs : 0

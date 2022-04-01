@@ -1,0 +1,22 @@
+{H:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/hazard.vhd} {1 {vcom -work work -2002 -explicit -stats=none {H:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/hazard.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity hazard
+-- Compiling architecture Structure of hazard
+
+} {} {}} {H:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/testPartOne.vhd} {2 {vcom -work work -2002 -explicit -stats=none {H:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/testPartOne.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity testPartOne
+-- Compiling architecture Structure of testPartOne
+** Warning: H:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/testPartOne.vhd(19): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: H:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/testPartOne.vhd(19): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: H:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/testPartOne.vhd(20): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: H:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/testPartOne.vhd(21): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: H:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/testPartOne.vhd(22): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+
+} {} {}}

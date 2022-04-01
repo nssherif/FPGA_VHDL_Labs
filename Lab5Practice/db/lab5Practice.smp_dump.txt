@@ -1,0 +1,6 @@
+
+State Machine - |demo_Display|current_state
+Name current_state.RIGHTS current_state.LEFTS current_state.IDLE 
+current_state.IDLE 0 0 0 
+current_state.LEFTS 0 1 1 
+current_state.RIGHTS 1 0 1 

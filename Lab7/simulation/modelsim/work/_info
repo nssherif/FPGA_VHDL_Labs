@@ -1,0 +1,166 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dH:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim
+Ehazard
+Z1 w1648160029
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8H:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/hazard.vhd
+Z5 FH:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/hazard.vhd
+l0
+L4
+V@zb@R1A[jCI9`IS=K9e:U0
+!s100 ancYIhkXB4Y=I>F]o:9MY0
+Z6 OV;C;10.5b;63
+32
+Z7 !s110 1648216843
+!i10b 1
+Z8 !s108 1648216843.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/hazard.vhd|
+Z10 !s107 H:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/hazard.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+DEx4 work 6 hazard 0 22 @zb@R1A[jCI9`IS=K9e:U0
+l17
+L9
+V>bhYNmJ]AebEODV[[BId_1
+!s100 ]PaHJ6K_L<FJHz4>=cEza2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ehazard2
+Z13 w1648163963
+R2
+R3
+R0
+Z14 8H:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/hazard2.vhd
+Z15 FH:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/hazard2.vhd
+l0
+L4
+V9]Eg[gMEWa3A@<?kV=5O20
+!s100 ZXDX_h@48Eh^1DVDY?j=i1
+R6
+32
+Z16 !s110 1648217198
+!i10b 1
+Z17 !s108 1648217198.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/hazard2.vhd|
+Z19 !s107 H:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/hazard2.vhd|
+!i113 1
+R11
+R12
+Astructure
+R2
+R3
+Z20 DEx4 work 7 hazard2 0 22 9]Eg[gMEWa3A@<?kV=5O20
+l17
+L9
+Z21 Vbf]fo[lGRX:Z5cf;m?FE52
+Z22 !s100 0QF9KVJD<9Vh0z4Q>0g0>1
+R6
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R11
+R12
+Etestpartone
+Z23 w1648215866
+R2
+R3
+R0
+Z24 8H:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/testPartOne.vhd
+Z25 FH:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/testPartOne.vhd
+l0
+L4
+VV]C7HmF?iJkb@87J1l7gL1
+!s100 :6M9=640HMERP=GocOJ_l1
+R6
+32
+Z26 !s110 1648216842
+!i10b 1
+Z27 !s108 1648216842.000000
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/testPartOne.vhd|
+Z29 !s107 H:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/testPartOne.vhd|
+!i113 1
+R11
+R12
+Astructure
+R2
+R3
+DEx4 work 11 testpartone 0 22 V]C7HmF?iJkb@87J1l7gL1
+l16
+L7
+V2ekjHTUXF4@Bz4NnK]YBO0
+!s100 n;kNndVG>DRi^`lG=l`ln0
+R6
+32
+R26
+!i10b 1
+R27
+R28
+R29
+!i113 1
+R11
+R12
+Etestparttwo
+Z30 w1648217194
+R2
+R3
+R0
+Z31 8H:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/testPartTwo.vhd
+Z32 FH:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/testPartTwo.vhd
+l0
+L4
+V79;R1:`5oV8HVYfRaDN6Z3
+!s100 Yl4SKGLIGil@d1An:c35A0
+R6
+32
+!s110 1648217197
+!i10b 1
+Z33 !s108 1648217197.000000
+Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/testPartTwo.vhd|
+Z35 !s107 H:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/testPartTwo.vhd|
+!i113 1
+R11
+R12
+Astructure
+R2
+R3
+DEx4 work 11 testparttwo 0 22 79;R1:`5oV8HVYfRaDN6Z3
+l16
+L7
+Vh[`7<MY>_dK9mTBb3eYhm1
+!s100 jTdGOfYdkmNTU]S:cMIIQ0
+R6
+32
+R16
+!i10b 1
+R33
+R34
+R35
+!i113 1
+R11
+R12

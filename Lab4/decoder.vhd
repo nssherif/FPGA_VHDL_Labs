@@ -11,9 +11,7 @@ architecture Structure of decoder is
 begin
  
 process(SW)
-
 begin
-
 case SW is
 when "0000" =>
 HEX0 <= "1000000"; --0

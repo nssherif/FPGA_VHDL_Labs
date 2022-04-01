@@ -1,0 +1,98 @@
+# vsim -gui -l msim_transcript work.testparttwo 
+# Start time: 11:33:46 on Mar 25,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.testparttwo(structure)
+# Loading work.hazard2(structure)
+# ** Warning: (vsim-3473) Component instance "g1 : twoInputNand" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /testparttwo/m1 File: H:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/hazard2.vhd
+# ** Warning: (vsim-3473) Component instance "g2 : twoInputNand" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /testparttwo/m1 File: H:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/hazard2.vhd
+# ** Warning: (vsim-3473) Component instance "g3 : twoInputNand" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /testparttwo/m1 File: H:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/hazard2.vhd
+# ** Warning: (vsim-3473) Component instance "g4 : twoInputNand" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /testparttwo/m1 File: H:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/hazard2.vhd
+# ** Warning: (vsim-3473) Component instance "g5 : twoInputNand" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /testparttwo/m1 File: H:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/hazard2.vhd
+# ** Warning: (vsim-3473) Component instance "g6 : twoInputNand" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /testparttwo/m1 File: H:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/hazard2.vhd
+# ** Warning: (vsim-3473) Component instance "g7 : twoInputNand" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /testparttwo/m1 File: H:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/hazard2.vhd
+# ** Warning: (vsim-3473) Component instance "g8 : twoInputNand" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /testparttwo/m1 File: H:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/hazard2.vhd
+# ** Warning: (vsim-3473) Component instance "g9 : twoInputNand" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /testparttwo/m1 File: H:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/hazard2.vhd
+# ** Warning: (vsim-3473) Component instance "g10 : twoInputNand" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /testparttwo/m1 File: H:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/hazard2.vhd
+# ** Warning: (vsim-3473) Component instance "g11 : twoInputNand" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /testparttwo/m1 File: H:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/hazard2.vhd
+# ** Warning: (vsim-3473) Component instance "g12 : twoInputNand" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /testparttwo/m1 File: H:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/hazard2.vhd
+# ** Warning: (vsim-3473) Component instance "g14 : twoInputNand" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /testparttwo/m1 File: H:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/hazard2.vhd
+# ** Warning: (vsim-3473) Component instance "g13 : twoInputNand" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /testparttwo/m1 File: H:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/hazard2.vhd
+# ** Warning: (vsim-3473) Component instance "g15 : twoInputNand" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /testparttwo/m1 File: H:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/hazard2.vhd
+# ** Warning: (vsim-3473) Component instance "g16 : twoInputNand" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /testparttwo/m1 File: H:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/hazard2.vhd
+# ** Warning: (vsim-3473) Component instance "g17 : twoInputNand" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /testparttwo/m1 File: H:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/hazard2.vhd
+# ** Warning: (vsim-3473) Component instance "g18 : twoInputNand" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /testparttwo/m1 File: H:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/hazard2.vhd
+add wave -position insertpoint  \
+sim:/testparttwo/a \
+sim:/testparttwo/b \
+sim:/testparttwo/c \
+sim:/testparttwo/d \
+sim:/testparttwo/f \
+sim:/testparttwo/output
+run
+# Compile of testPartTwo.vhd was successful with warnings.
+# Compile of hazard2.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+# ** Error (suppressible): (vish-19) Failed to access library 'rtl_work' at "rtl_work".
+# Invalid argument. (errno = EINVAL)
+restart
+# Loading work.testparttwo(structure)
+# Loading work.hazard2(structure)
+# ** Warning: (vsim-3473) Component instance "g1 : twoInputNand" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /testparttwo/m1 File: H:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/hazard2.vhd
+# ** Warning: (vsim-3473) Component instance "g2 : twoInputNand" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /testparttwo/m1 File: H:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/hazard2.vhd
+# ** Warning: (vsim-3473) Component instance "g3 : twoInputNand" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /testparttwo/m1 File: H:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/hazard2.vhd
+# ** Warning: (vsim-3473) Component instance "g4 : twoInputNand" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /testparttwo/m1 File: H:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/hazard2.vhd
+# ** Warning: (vsim-3473) Component instance "g5 : twoInputNand" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /testparttwo/m1 File: H:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/hazard2.vhd
+# ** Warning: (vsim-3473) Component instance "g6 : twoInputNand" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /testparttwo/m1 File: H:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/hazard2.vhd
+# ** Warning: (vsim-3473) Component instance "g7 : twoInputNand" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /testparttwo/m1 File: H:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/hazard2.vhd
+# ** Warning: (vsim-3473) Component instance "g8 : twoInputNand" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /testparttwo/m1 File: H:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/hazard2.vhd
+# ** Warning: (vsim-3473) Component instance "g9 : twoInputNand" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /testparttwo/m1 File: H:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/hazard2.vhd
+# ** Warning: (vsim-3473) Component instance "g10 : twoInputNand" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /testparttwo/m1 File: H:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/hazard2.vhd
+# ** Warning: (vsim-3473) Component instance "g11 : twoInputNand" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /testparttwo/m1 File: H:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/hazard2.vhd
+# ** Warning: (vsim-3473) Component instance "g12 : twoInputNand" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /testparttwo/m1 File: H:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/hazard2.vhd
+# ** Warning: (vsim-3473) Component instance "g14 : twoInputNand" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /testparttwo/m1 File: H:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/hazard2.vhd
+# ** Warning: (vsim-3473) Component instance "g13 : twoInputNand" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /testparttwo/m1 File: H:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/hazard2.vhd
+# ** Warning: (vsim-3473) Component instance "g15 : twoInputNand" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /testparttwo/m1 File: H:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/hazard2.vhd
+# ** Warning: (vsim-3473) Component instance "g16 : twoInputNand" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /testparttwo/m1 File: H:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/hazard2.vhd
+# ** Warning: (vsim-3473) Component instance "g17 : twoInputNand" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /testparttwo/m1 File: H:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/hazard2.vhd
+# ** Warning: (vsim-3473) Component instance "g18 : twoInputNand" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /testparttwo/m1 File: H:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/hazard2.vhd
+run
+# End time: 11:52:45 on Mar 25,2022, Elapsed time: 0:18:59
+# Errors: 0, Warnings: 36

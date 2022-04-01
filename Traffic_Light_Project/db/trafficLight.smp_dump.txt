@@ -1,0 +1,13 @@
+
+State Machine - |trafficLight|traffic_lights_state
+Name traffic_lights_state.NS_Buffer_State traffic_lights_state.NS_End_State traffic_lights_state.EW_Buffer_State traffic_lights_state.EW_End_State traffic_lights_state.EW_LEFT traffic_lights_state.NS_YELLOW traffic_lights_state.NS_GREEN traffic_lights_state.NS_LEFT traffic_lights_state.EW_YELLOw traffic_lights_state.EW_GREEN 
+traffic_lights_state.EW_GREEN 0 0 0 0 0 0 0 0 0 0 
+traffic_lights_state.EW_YELLOw 0 0 0 0 0 0 0 0 1 1 
+traffic_lights_state.NS_LEFT 0 0 0 0 0 0 0 1 0 1 
+traffic_lights_state.NS_GREEN 0 0 0 0 0 0 1 0 0 1 
+traffic_lights_state.NS_YELLOW 0 0 0 0 0 1 0 0 0 1 
+traffic_lights_state.EW_LEFT 0 0 0 0 1 0 0 0 0 1 
+traffic_lights_state.EW_End_State 0 0 0 1 0 0 0 0 0 1 
+traffic_lights_state.EW_Buffer_State 0 0 1 0 0 0 0 0 0 1 
+traffic_lights_state.NS_End_State 0 1 0 0 0 0 0 0 0 1 
+traffic_lights_state.NS_Buffer_State 1 0 0 0 0 0 0 0 0 1 

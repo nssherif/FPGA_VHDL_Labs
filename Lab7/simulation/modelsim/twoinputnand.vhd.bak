@@ -1,0 +1,61 @@
+LIBRARY ieee  ; 
+LIBRARY std  ; 
+USE ieee.std_logic_1164.all  ; 
+USE ieee.std_logic_textio.all  ; 
+USE ieee.std_logic_unsigned.all  ; 
+USE std.textio.all  ; 
+ENTITY twoinputnand  IS 
+END ; 
+ 
+ARCHITECTURE twoinputnand_arch OF twoinputnand IS
+  SIGNAL x   :  STD_LOGIC  ; 
+  SIGNAL y   :  STD_LOGIC  ; 
+  SIGNAL z   :  STD_LOGIC  ; 
+  COMPONENT twoInputNand  
+    PORT ( 
+      x  : in STD_LOGIC ; 
+      y  : in STD_LOGIC ; 
+      z  : out STD_LOGIC ); 
+  END COMPONENT ; 
+BEGIN
+  DUT  : twoInputNand  
+    PORT MAP ( 
+      x   => x  ,
+      y   => y  ,
+      z   => z   ) ; 
+
+
+
+-- "Constant Pattern"
+-- Start Time = 0 ns, End Time = 1 us, Period = 50 ns
+  Process
+	Begin
+	 x  <= '0'  ;
+	wait for 1 us ;
+-- dumped values till 1 us
+	wait;
+ End Process;
+
+
+-- "Constant Pattern"
+-- Start Time = 0 ns, End Time = 1 us, Period = 0 ns
+  Process
+	Begin
+	 y  <= '0'  ;
+	wait for 1 us ;
+-- dumped values till 1 us
+	wait;
+ End Process;
+
+
+-- "Constant Pattern"
+-- Start Time = 0 ns, End Time = 1 us, Period = 0 ns
+  Process
+	Begin
+	 if z  /= ('0'  ) then 
+		report " test case failed" severity error; end if;
+	wait for 1 us ;
+-- dumped values till 1 us
+	wait;
+ End Process;
+END;

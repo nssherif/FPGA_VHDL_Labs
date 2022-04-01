@@ -1,0 +1,180 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dH:/My Documents/Downloads/ECE5500/Lab5Practice/simulation/modelsim
+Edemo_display
+Z1 w1646587290
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z4 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z7 8H:/My Documents/Downloads/ECE5500/Lab5Practice/demo_Display.vhd
+Z8 FH:/My Documents/Downloads/ECE5500/Lab5Practice/demo_Display.vhd
+l0
+L7
+V9NEeFe<N8D3]dekF:``Eh3
+!s100 I09J>>aIZPjP;bPDTFVKo1
+Z9 OV;C;10.5b;63
+31
+Z10 !s110 1646587623
+!i10b 1
+Z11 !s108 1646587623.000000
+Z12 !s90 -reportprogress|300|-93|-work|work|H:/My Documents/Downloads/ECE5500/Lab5Practice/demo_Display.vhd|
+Z13 !s107 H:/My Documents/Downloads/ECE5500/Lab5Practice/demo_Display.vhd|
+!i113 1
+Z14 o-93 -work work
+Z15 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+DEx4 work 12 demo_display 0 22 9NEeFe<N8D3]dekF:``Eh3
+l38
+L13
+V8dkj=XQe<So_LPQ1fRZDH2
+!s100 0cY747oSA;9LgmHR4F[o02
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+R14
+R15
+Efourbitcounter
+Z16 w1646586975
+R3
+R4
+R5
+R6
+R0
+Z17 8H:/My Documents/Downloads/ECE5500/Lab5Practice/fourBitCounter.vhd
+Z18 FH:/My Documents/Downloads/ECE5500/Lab5Practice/fourBitCounter.vhd
+l0
+L6
+VTO765CBzJAQH;>A;i>ECi1
+!s100 bg>WP4F8E0M8aBaJUZFLk0
+R9
+31
+Z19 !s110 1646587622
+!i10b 1
+Z20 !s108 1646587622.000000
+Z21 !s90 -reportprogress|300|-93|-work|work|H:/My Documents/Downloads/ECE5500/Lab5Practice/fourBitCounter.vhd|
+Z22 !s107 H:/My Documents/Downloads/ECE5500/Lab5Practice/fourBitCounter.vhd|
+!i113 1
+R14
+R15
+Astructure
+R3
+R4
+R5
+R6
+DEx4 work 14 fourbitcounter 0 22 TO765CBzJAQH;>A;i>ECi1
+l13
+L11
+V^>noi@GN7bI?[DYoMMXkn0
+!s100 [iW:FAS`ziYZBaSQOfngY3
+R9
+31
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R14
+R15
+Etenbitshiftregister
+Z23 w1646586060
+R5
+R6
+R0
+Z24 8H:/My Documents/Downloads/ECE5500/Lab5Practice/tenBitShiftRegister.vhd
+Z25 FH:/My Documents/Downloads/ECE5500/Lab5Practice/tenBitShiftRegister.vhd
+l0
+L5
+VcWRZT4^6fnJ6Q8Y8KTkLj2
+!s100 NmlRA[iK[_B9zL165Ild_0
+R9
+31
+R10
+!i10b 1
+R11
+Z26 !s90 -reportprogress|300|-93|-work|work|H:/My Documents/Downloads/ECE5500/Lab5Practice/tenBitShiftRegister.vhd|
+Z27 !s107 H:/My Documents/Downloads/ECE5500/Lab5Practice/tenBitShiftRegister.vhd|
+!i113 1
+R14
+R15
+Astructure
+R5
+R6
+DEx4 work 19 tenbitshiftregister 0 22 cWRZT4^6fnJ6Q8Y8KTkLj2
+l15
+L11
+Vc;Mn:T:ceFh9TF5n^?S_>2
+!s100 5T<P8z2NO<B[e_n;3m;nC2
+R9
+31
+R10
+!i10b 1
+R11
+R26
+R27
+!i113 1
+R14
+R15
+Etwentybitcounter
+Z28 w1646437071
+R3
+R4
+R5
+R6
+R0
+Z29 8H:/My Documents/Downloads/ECE5500/Lab5Practice/twentyBitCounter.vhd
+Z30 FH:/My Documents/Downloads/ECE5500/Lab5Practice/twentyBitCounter.vhd
+l0
+L6
+V@I6WfkMX>n>6i;MRgTd6L2
+!s100 KfLmF@7cld51BOO<Ta`2l0
+R9
+31
+R10
+!i10b 1
+R11
+Z31 !s90 -reportprogress|300|-93|-work|work|H:/My Documents/Downloads/ECE5500/Lab5Practice/twentyBitCounter.vhd|
+Z32 !s107 H:/My Documents/Downloads/ECE5500/Lab5Practice/twentyBitCounter.vhd|
+!i113 1
+R14
+R15
+Astructure
+R3
+R4
+R5
+R6
+DEx4 work 16 twentybitcounter 0 22 @I6WfkMX>n>6i;MRgTd6L2
+l13
+L11
+VZfh8maj1;UX@D1DnLPE_g1
+!s100 ;19cL`>hC117W_[Z`MQo[2
+R9
+31
+R10
+!i10b 1
+R11
+R31
+R32
+!i113 1
+R14
+R15

@@ -1,0 +1,17 @@
+# Compile of testPartTwo.vhd failed with 2 errors.
+# Compile of hazard2.vhd was successful.
+# 2 compiles, 1 failed with 2 errors.
+# ** Error (suppressible): (vish-19) Failed to access library 'rtl_work' at "rtl_work".
+# Invalid argument. (errno = EINVAL)
+# couldn't open "H:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/rtl_work/_info": permission denied
+# Load canceled
+# Compile of testPartTwo.vhd was successful with warnings.
+# Compile of hazard2.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+# ** Error (suppressible): (vish-19) Failed to access library 'rtl_work' at "rtl_work".
+# Invalid argument. (errno = EINVAL)
+# couldn't open "H:/My Documents/Downloads/ECE5500/Lab7/simulation/modelsim/rtl_work/_info": permission denied
+# Load canceled
+# ** Error (suppressible): (vish-19) Failed to access library 'rtl_work' at "rtl_work".
+# Invalid argument. (errno = EINVAL)
+vsim -gui -l msim_transcript work.testparttwo

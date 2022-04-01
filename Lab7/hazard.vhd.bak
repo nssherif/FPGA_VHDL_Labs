@@ -1,0 +1,12 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity hazard is 
+	port (A, B, C, D, E: in std_logic;
+			F: out std_logic);
+end hazard;
+
+architecture Structure of hazard is
+begin
+	
+end Structure;    
